@@ -1,11 +1,9 @@
-## Version 1.0
-
+## A lightweight semantic segmentation network based on self-attention mechanism and state space model for real-time urban scene segmentation
 
 ## Introduction
 
 **GeoSeg** is an open-source  semantic segmentation toolbox based on PyTorch, [pytorch lightning](https://www.pytorchlightning.ai/) and [timm](https://github.com/rwightman/pytorch-image-models), 
 which mainly focuses on developing advanced Vision Transformers for remote sensing image segmentation.
-
 
 ## Major Features
 
