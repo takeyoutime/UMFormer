@@ -14,7 +14,7 @@ Some samples with challenges in semantic segmentation of remote sensing images:
   - More datasets will be supported in the future.
   
 - Dataset preprocessing
-  Please refer to [**Geoseg**](https://github.com/WangLibo1995/GeoSeg)
+  - Please refer to [**Geoseg**](https://github.com/WangLibo1995/GeoSeg)
 
 
 ## Supported Networks
