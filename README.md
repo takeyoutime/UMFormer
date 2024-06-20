@@ -40,19 +40,11 @@ Dataset
 ```
 
 
-## Overview Framework of UMFormer
+## Overview framework of UMFormer
 
-- Vision Transformer
+We aim to design a precise semantic segmentation network for remote sensing images. Inspired by the self-attention mechanism and Mamba, we propose UMFormer, a network that fuses these two techniques within an encoder-decoder framework to address the aforementioned challenges. UMFormer combines the respective advantages of CNN, self-attention mechanism and Mamba to create a hybrid network effectively.
 
-  - [UNetFormer](https://authors.elsevier.com/a/1fIji3I9x1j9Fs) 
-  - [DC-Swin](https://ieeexplore.ieee.org/abstract/document/9681903)
-  - [BANet](https://www.mdpi.com/2072-4292/13/16/3065)
-  
-- CNN
- 
-  - [MANet](https://ieeexplore.ieee.org/abstract/document/9487010) 
-  - [ABCNet](https://www.sciencedirect.com/science/article/pii/S0924271621002379)
-  - [A2FPN](https://www.tandfonline.com/doi/full/10.1080/01431161.2022.2030071)
+![Overview Framework of UMFormer](/Image/UMFormer.jpg)
   
 ## Folder Structure
 
