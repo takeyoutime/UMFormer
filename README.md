@@ -6,25 +6,16 @@ Some samples with challenges in semantic segmentation of remote sensing images:
 
 ![Introduction](/Image/introduction.jpg)
 
-## Major Features
-
-- Unified Benchmark
-
-  we provide a unified training script for various segmentation methods.
-  
-- Simple and Effective
-
-  Thanks to **pytorch lightning** and **timm** , the code is easy for further development.
+## Dataset
   
 - Supported Remote Sensing Datasets
- 
   - [ISPRS Vaihingen and Potsdam](https://www.isprs.org/education/benchmarks/UrbanSemLab/default.aspx) 
   - [UAVid](https://uavid.nl/)
-  - [LoveDA](https://codalab.lisn.upsaclay.fr/competitions/421)
   - More datasets will be supported in the future.
   
-- Multi-scale Training and Testing
-- Inference on Huge Remote Sensing Images
+- Dataset preprocessing
+  
+
 
 ## Supported Networks
 
