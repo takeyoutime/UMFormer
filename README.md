@@ -4,7 +4,7 @@
 
 Some samples with challenges in semantic segmentation of remote sensing images:
 
-!()[]
+![Introduction](/Image/introduction.jpg)
 
 ## Major Features
 
