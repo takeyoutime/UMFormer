@@ -49,21 +49,10 @@ We aim to design a precise semantic segmentation network for remote sensing imag
 
 ## Comparison of network parameters
 
+In the context of remote sensing image semantic segmentation, the parameter size, complexity and speed of the network are also crucial evaluation indicators. In response, a comparison is made between UMFormer and efficient semantic segmentation networks, including the number of model parameters (M), the floating point operation count (FLOPs) and the frames per second (FPS).
+
 ![Comparison of network parameters](/Image/Comparison-of-network-parameters.jpg)
 
-## Inference on huge remote sensing image
-```
-python GeoSeg/inference_huge_image.py \
--i data/vaihingen/test_images \
--c GeoSeg/config/vaihingen/dcswin.py \
--o fig_results/vaihingen/dcswin_huge \
--t 'lr' -ph 512 -pw 512 -b 2 -d "pv"
-```
-
-<div>
-<img src="vai.png" width="30%"/>
-<img src="pot.png" width="35.5%"/>
-</div>
 
 ## Reproduction Results
 |    Method     |  Dataset  |  F1   |  OA   |  mIoU |
