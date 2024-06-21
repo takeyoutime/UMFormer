@@ -29,7 +29,7 @@ In the context of remote sensing image semantic segmentation, the parameter size
 
 ![Comparison of network parameters](/Image/Comparison-of-network-parameters.jpg)
 
-## Reproduction Results
+## Numerical results
 |   Method   |  Dataset  |  F1  |  OA  | mIoU |
 |:----------:|:---------:|:----:|:----:|-----:|
 |  UMFormer  |   UAVid   | 79.3 | 85.7 | 67.7 |
