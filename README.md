@@ -51,3 +51,6 @@ Visualization of the Vaihingen validation set. The columns from left to right ar
 Visualization of the Potsdam validation set. The columns from left to right are: original images, ground truth, segmentation results of MAResU-Net, segmentation results of UNetFormer, segmentation results of Swin-UMamba, segmentation results of ours.
 ![UAVid](/Image/potsdam.jpg)
 
+## Conclusion
+
+In this paper, we propose an efficient hybrid architecture (UMFormer) that integrates the respective advantages of CNN, Transformer and Mamba for semantic segmentation of remote sensing images.
