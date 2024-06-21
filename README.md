@@ -15,30 +15,6 @@ Some samples with challenges in semantic segmentation of remote sensing images:
   
 - Dataset preprocessing
   - Please refer to [**Geoseg**](https://github.com/WangLibo1995/GeoSeg)
- 
-- Folder structure
-  - Place the processed data set in the following order:
-```none
-Dataset
-├── uavid
-│   ├── uavid_train (original)
-│   ├── uavid_val (original)
-│   ├── uavid_test (original)
-│   ├── uavid_train_val (Merge uavid_train and uavid_val)
-│   ├── train (processed)
-│   ├── val (processed)
-│   ├── train_val (processed)
-├── vaihingen
-│   ├── train_images (original)
-│   ├── train_masks (original)
-│   ├── test_images (original)
-│   ├── test_masks (original)
-│   ├── test_masks_eroded (original)
-│   ├── train (processed)
-│   ├── test (processed)
-├── potsdam (the same with vaihingen)
-```
-
 
 ## Overview framework of UMFormer
 
