@@ -55,14 +55,11 @@ In the context of remote sensing image semantic segmentation, the parameter size
 
 
 ## Reproduction Results
-|    Method     |  Dataset  |  F1   |  OA   |  mIoU |
-|:-------------:|:---------:|:-----:|:-----:|------:|
-|  UNetFormer   |   UAVid   |   -   |   -   | 67.63 |
-|  UNetFormer   | Vaihingen | 90.30 | 91.10 | 82.54 |
-|  UNetFormer   |  Potsdam  | 92.64 | 91.19 | 86.52 |
-|  UNetFormer   |  LoveDA   |   -   |   -   | 52.97 |
-| FT-UNetFormer | Vaihingen | 91.17 | 91.74 | 83.98 |
-| FT-UNetFormer |  Potsdam  | 93.22 | 91.87 | 87.50 |
+|   Method   |  Dataset  |  F1  |  OA  | mIoU |
+|:----------:|:---------:|:----:|:----:|-----:|
+|  UMFormer  |   UAVid   | 79.3 | 85.7 | 67.7 |
+|  UMFormer  | Vaihingen | 90.7 | 93.0 | 83.3 |
+|  UMFormer  |  Potsdam  | 92.0 | 90.9 | 85.5 |
 
 Due to some random operations in the training stage, reproduced results (run once) are slightly different from the reported in paper.
 
