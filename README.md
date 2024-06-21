@@ -50,7 +50,6 @@ We aim to design a precise semantic segmentation network for remote sensing imag
 ## Comparison of network parameters
 
 
-
 ## Inference on huge remote sensing image
 ```
 python GeoSeg/inference_huge_image.py \
