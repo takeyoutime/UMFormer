@@ -41,8 +41,13 @@ In the context of remote sensing image semantic segmentation, the parameter size
 
 ### UAVid
 Visualization of the UAVid validation set. The first column represents the original images. The second column represents the ground truth. The third column represents the UNetFormer segmentation results. The fourth column represents the segmentation results of our method.
+![UAVid](/Image/uavid.jpg)
 
+### Vaihingen
+Visualization of the Vaihingen validation set. The columns from left to right are: original images, ground truth, segmentation results of ABCNet, segmentation results of UNetFormer, segmentation results of Mamba-UNet, segmentation results of ours.
+![UAVid](/Image/vaihingen.jpg)
 
-  
-- Dataset preprocessing
-  - Please refer to [**Geoseg**](https://github.com/WangLibo1995/GeoSeg)
+### Potsdam
+Visualization of the Potsdam validation set. The columns from left to right are: original images, ground truth, segmentation results of MAResU-Net, segmentation results of UNetFormer, segmentation results of Swin-UMamba, segmentation results of ours.
+![UAVid](/Image/potsdam.jpg)
+
