@@ -49,6 +49,7 @@ We aim to design a precise semantic segmentation network for remote sensing imag
 
 ## Comparison of network parameters
 
+![Comparison of network parameters](/Image/Comparison-of-network-parameters.jpg)
 
 ## Inference on huge remote sensing image
 ```
