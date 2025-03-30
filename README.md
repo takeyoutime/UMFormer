@@ -22,6 +22,11 @@ We aim to design a precise semantic segmentation network for remote sensing imag
 
 ![Overview Framework of UMFormer](/Image/UMFormer.jpg)
 
+## Experimental setup
+
+The experiments were conducted using the PyTorch framework on a workstation with 64-GB memory, an Intel i9-11900K 3.50-GHz CPU, and a 24-GB NVIDIA GeForce RTX 3090 GPU. To facilitate the training of all models, the AdamW optimizer was utilized to accelerate convergence. Additionally, we adjusted the learning rate using the cosine annealing strategy. The initial learning rate was set to 6e-4.
+When training models on UAVid dataset, the input images were set to 1024×1024 pixels. Data augmentation strategies include random vertical flip, random horizontal flip, and random brightness. The epoch was set to 45 and the batch size was set to 4. When training the model on the other datasets, we randomly cropped the input image to a size of 512×512 pixels. Meanwhile, random vertical flipping, random horizontal flipping and random rotation were applied as data augmentation techniques. The epoch was set to 105 and the batch size was set to 4.
+
 
 ## Comparison of network parameters
 
