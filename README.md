@@ -109,9 +109,9 @@ python uavid_test.py -c config/uavid/umformer.py -o fig_results/uavid/umformer -
 
 Our code is based on the following previous work：  
 
-[UNetformer](https://github.com/WangLibo1995/GeoSeg)  
-[Visio Mamba](https://github.com/hustvl/Vim)  
+[UNetformer](https://github.com/WangLibo1995/GeoSeg)
+[Visio Mamba](https://github.com/hustvl/Vim)
 [VM-UNet](https://github.com/JCruan519/VM-UNet/tree/main)
 
-[UrbanSSF](https://github.com/KotlinWang/UrbanSSF/tree/main).
+
 
