@@ -53,10 +53,20 @@ Visualization of the Potsdam validation set. The columns from left to right are:
 
 ## Installation
 
-Step 0: Clone this project and create a conda environment.
+Step 0: Create a conda environment.
 ```
 conda create -n UMFormer python=3.8
 conda activate UMFormer
+```
+
+Step 1: Install pytorch and torchvision matching your CUDA version:
+```
+pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu121
+```
+
+Step 2: Install requirements:
+```
+pip install -r requirements.txt
 ```
 
 ## Acknowledgement
