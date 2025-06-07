@@ -6,15 +6,6 @@ Some samples with challenges in semantic segmentation of remote sensing images:
 
 ![Introduction](/Image/introduction.jpg)
 
-## Dataset
-
-- Supported Remote Sensing Datasets
-  - [ISPRS Vaihingen and Potsdam](https://www.isprs.org/education/benchmarks/UrbanSemLab/default.aspx) 
-  - [UAVid](https://uavid.nl/)
-  - More datasets will be supported in the future.
-  
-- Dataset preprocessing
-  - Please refer to [**Geoseg**](https://github.com/WangLibo1995/GeoSeg)
 
 ## Overview framework of UMFormer
 
@@ -75,6 +66,16 @@ pip install mamba-ssm==1.2.0.post1
 
 pip install causal-conv1d==1.2.0.post2
 ```
+
+## Dataset
+
+- Supported Remote Sensing Datasets
+  - [ISPRS Vaihingen and Potsdam](https://www.isprs.org/education/benchmarks/UrbanSemLab/default.aspx) 
+  - [UAVid](https://uavid.nl/)
+  - More datasets will be supported in the future.
+  
+- Dataset preprocessing
+  - Please refer to [**Geoseg**](https://github.com/WangLibo1995/GeoSeg)
 
 ## Training
 "-c" means the path of the config, use different config to train different models.
