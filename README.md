@@ -72,7 +72,6 @@ pip install causal-conv1d==1.2.0.post2
 - Supported Remote Sensing Datasets
   - [ISPRS Vaihingen and Potsdam](https://www.isprs.org/education/benchmarks/UrbanSemLab/default.aspx) 
   - [UAVid](https://uavid.nl/)
-  - More datasets will be supported in the future.
   
 - Dataset preprocessing
   - Please refer to [**Geoseg**](https://github.com/WangLibo1995/GeoSeg)
@@ -110,11 +109,8 @@ python uavid_test.py -c config/uavid/umformer.py -o fig_results/uavid/umformer -
 Our code is based on the following previous work：  
 
 [UNetformer](https://github.com/WangLibo1995/GeoSeg)
-
 [Visio Mamba](https://github.com/hustvl/Vim)
-
 [VM-UNet](https://github.com/JCruan519/VM-UNet/tree/main)
-
 [UrbanSSF](https://github.com/KotlinWang/UrbanSSF/tree/main).
 
 
