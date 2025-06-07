@@ -76,6 +76,24 @@ pip install mamba-ssm==1.2.0.post1
 pip install causal-conv1d==1.2.0.post2
 ```
 
+## Training
+"-c" means the path of the config, use different config to train different models.
+```
+python train_supervision.py -c config/uavid/umformer.py
+```
+
+## Testing
+"-c" denotes the path of the config, Use different config to test different models.
+
+"-o" denotes the output path
+
+"--rgb" denotes whether to output masks in RGB format
+
+**Vaihingen**
+```
+python train_supervision.py -c config/uavid/umformer.py
+```
+
 ## Acknowledgement
 
 Our code is based on the following previous work：  
