@@ -69,6 +69,13 @@ Step 2: Install requirements:
 pip install -r requirements.txt
 ```
 
+Step 3: Install Mamba:
+```
+pip install mamba-ssm==1.2.0.post1
+
+pip install causal-conv1d==1.2.0.post2
+```
+
 ## Acknowledgement
 
 Our code is based on the following previous work：  
