@@ -51,7 +51,17 @@ Visualization of the Potsdam validation set. The columns from left to right are:
 ![UAVid](/Image/potsdam.jpg)
 
 
+## Installation
 
+Generate the training set.
+```
+python GeoSeg/tools/vaihingen_patch_split.py \
+--img-dir "data/vaihingen/train_images" \
+--mask-dir "data/vaihingen/train_masks" \
+--output-img-dir "data/vaihingen/train/images_1024" \
+--output-mask-dir "data/vaihingen/train/masks_1024" \
+--mode "train" --split-size 1024 --stride 512 
+```
 
 ## Acknowledgement
 
