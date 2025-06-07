@@ -53,14 +53,10 @@ Visualization of the Potsdam validation set. The columns from left to right are:
 
 ## Installation
 
-Generate the training set.
+Step 0: Clone this project and create a conda environment.
 ```
-python GeoSeg/tools/vaihingen_patch_split.py \
---img-dir "data/vaihingen/train_images" \
---mask-dir "data/vaihingen/train_masks" \
---output-img-dir "data/vaihingen/train/images_1024" \
---output-mask-dir "data/vaihingen/train/masks_1024" \
---mode "train" --split-size 1024 --stride 512 
+conda create -n UMFormer python=3.8
+conda activate UMFormer
 ```
 
 ## Acknowledgement
