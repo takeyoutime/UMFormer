@@ -1,4 +1,4 @@
-## A lightweight semantic segmentation network based on self-attention mechanism and state space model for real-time urban scene segmentation
+# A lightweight semantic segmentation network based on self-attention mechanism and state space model for real-time urban scene segmentation
 
 ## Introduction
 
@@ -21,12 +21,6 @@ Some samples with challenges in semantic segmentation of remote sensing images:
 We aim to design a precise semantic segmentation network for remote sensing images. Inspired by the self-attention mechanism and Mamba, we propose UMFormer, a network that fuses these two techniques within an encoder-decoder framework to address the aforementioned challenges. UMFormer combines the respective advantages of CNN, self-attention mechanism and Mamba to create a hybrid network effectively.
 
 ![Overview Framework of UMFormer](/Image/UMFormer.jpg)
-
-## Experimental setup
-
-The experiments were conducted using the PyTorch framework on a workstation with 64-GB memory, an Intel i9-11900K 3.50-GHz CPU, and a 24-GB NVIDIA GeForce RTX 3090 GPU. To facilitate the training of all models, the AdamW optimizer was utilized to accelerate convergence. Additionally, we adjusted the learning rate using the cosine annealing strategy. The initial learning rate was set to 6e-4.
-When training models on UAVid dataset, the input images were set to 1024×1024 pixels. Data augmentation strategies include random vertical flip, random horizontal flip, and random brightness. The epoch was set to 45 and the batch size was set to 4. When training the model on the other datasets, we randomly cropped the input image to a size of 512×512 pixels. Meanwhile, random vertical flipping, random horizontal flipping and random rotation were applied as data augmentation techniques. The epoch was set to 105 and the batch size was set to 4.
-
 
 ## Comparison of network parameters
 
@@ -55,6 +49,9 @@ Visualization of the Vaihingen validation set. The columns from left to right ar
 ### Potsdam
 Visualization of the Potsdam validation set. The columns from left to right are: original images, ground truth, segmentation results of MAResU-Net, segmentation results of UNetFormer, segmentation results of Swin-UMamba, segmentation results of ours.
 ![UAVid](/Image/potsdam.jpg)
+
+
+
 
 ## Acknowledgement
 
