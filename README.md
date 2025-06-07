@@ -91,7 +91,17 @@ python train_supervision.py -c config/uavid/umformer.py
 
 **Vaihingen**
 ```
-python train_supervision.py -c config/uavid/umformer.py
+python vaihingen_test.py -c config/vaihingen/umformer.py -o fig_results/vaihingen/umformer --rgb -t 'None'
+```
+
+**Potsdam**
+```
+python potsdam_test.py -c config/potsdam/umformer.py -o fig_results/potsdam/umformer --rgb -t 'None'
+```
+
+**Uavid**
+```
+python uavid_test.py -c config/uavid/umformer.py -o fig_results/uavid/umformer --rgb -t 'None'
 ```
 
 ## Acknowledgement
@@ -101,4 +111,5 @@ Our code is based on the following previous work：
 [UNetformer](https://github.com/WangLibo1995/GeoSeg)  
 [Visio Mamba](https://github.com/hustvl/Vim)  
 [VM-UNet](https://github.com/JCruan519/VM-UNet/tree/main)
+[UrbanSSF](https://github.com/KotlinWang/UrbanSSF/tree/main).
 
