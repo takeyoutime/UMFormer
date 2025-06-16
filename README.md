@@ -117,14 +117,11 @@ Our code is based on the following previous work：
 
 If you find this project useful in your research, please consider citing：
 ```
-@ARTICLE{10969832,
+@article{li2025lightweight,
+  title={A Lightweight Semantic Segmentation Network Based on Self-attention Mechanism and State Space Model for Efficient Urban Scene Segmentation},
   author={Li, Langping and Yi, Jizheng and Fan, Hui and Lin, Hui},
-  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={A Lightweight Semantic Segmentation Network Based on Self-Attention Mechanism and State Space Model for Efficient Urban Scene Segmentation}, 
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
   year={2025},
-  volume={63},
-  number={},
-  pages={1-15},
-  keywords={Transformers;Remote sensing;Semantic segmentation;Feature extraction;Data mining;Accuracy;Convolutional neural networks;Decoding;Semantics;Computational modeling;Remote sensing image;self-attention mechanism;semantic segmentation;state space model},
-  doi={10.1109/TGRS.2025.3562185}}
+  publisher={IEEE}
+}
 ```
